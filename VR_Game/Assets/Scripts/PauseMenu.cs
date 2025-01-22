@@ -3,33 +3,40 @@ using UnityEngine.InputSystem;
 
 public class PauseMenu : MonoBehaviour
 {
+    public GameObject welcomeScreen;
     public GameObject pauseScreen;
+    public GameObject player;
     bool isPaused;
 
     bool wasCursorVisible;
     CursorLockMode previousLockState;
     float previousTimeScale;
 
+    PlayerInput playerInput;
 
     void Start()
     {
         isPaused = false;
         pauseScreen.SetActive(isPaused);
+        playerInput = player.GetComponent<PlayerInput>();
     }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-
-            if (!isPaused)
+            if (!welcomeScreen.activeSelf)
             {
-                Pause();
+                if (!isPaused)
+                {
+                    Pause();
+                }
+                else
+                {
+                    Resume();
+                }
             }
-            else
-            {
-                Resume();
-            }
+        
         }
     }
 
@@ -48,7 +55,8 @@ public class PauseMenu : MonoBehaviour
 
         Time.timeScale = 0f;
 
-       
+        playerInput.DeactivateInput();
+
     }
 
     public void Resume()
@@ -61,6 +69,7 @@ public class PauseMenu : MonoBehaviour
         Cursor.lockState = previousLockState;
         Time.timeScale = previousTimeScale;
 
+        playerInput.ActivateInput();
     }
 
     public void QuitApp()
