@@ -14,7 +14,7 @@ public class NpcWalkingForward : MonoBehaviour
     float timer;
     float waitTime;
     float waitTimeMin = 0f;
-    float waitTimeMax = 4f;
+    float waitTimeMax = 1f;
     
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -38,11 +38,11 @@ public class NpcWalkingForward : MonoBehaviour
         {
             //Debug.LogError("!!!!");
             animator.SetBool("Walking", false);
-            timer = timer +Time.deltaTime;
-            if (timer >= waitTime)
-            {
-                NextPoint();
-            }
+            //timer = timer +Time.deltaTime;
+            //if (timer >= waitTime)
+            //{
+            NextPoint();
+            //}
 
         }
     }
@@ -51,7 +51,7 @@ public class NpcWalkingForward : MonoBehaviour
     {
 
         timer = 0;
-        waitTime = Random.Range(waitTimeMin, waitTimeMax);
+        //waitTime = Random.Range(waitTimeMin, waitTimeMax);
 
         int nextTarget = (targetIndex + 1) % targets.Length;
         //Debug.LogError(nextTarget);
