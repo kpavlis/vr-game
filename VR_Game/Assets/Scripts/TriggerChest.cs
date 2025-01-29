@@ -3,15 +3,19 @@ using UnityEngine;
 
 public class TriggerChest : MonoBehaviour
 {
+    private Animator mAnimator;
     public GameObject mText;
     public GameObject mBackground;
+    public GameObject main_object;
     private TextMeshProUGUI textVariable;
-    private Animator mAnimator;
+   
+
 
     void Start()
     {
-        mAnimator = GetComponent<Animator>();
+        mAnimator = main_object.GetComponent<Animator>();
         textVariable = mText.GetComponent<TextMeshProUGUI>();
+        
     }
 
     void OnTriggerEnter(Collider other)
