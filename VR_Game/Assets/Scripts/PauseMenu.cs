@@ -5,6 +5,8 @@ public class PauseMenu : MonoBehaviour
 {
     public GameObject welcomeScreen;
     public GameObject pauseScreen;
+    public GameObject audioSource;
+    public GameObject volumeSlider;
     public GameObject player;
     bool isPaused;
 
@@ -70,6 +72,11 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = previousTimeScale;
 
         playerInput.ActivateInput();
+    }
+
+    public void AdjustVolume()
+    {
+        audioSource.GetComponent<AudioSource>().volume = volumeSlider.GetComponent<UnityEngine.UI.Slider>().value/100;
     }
 
     public void QuitApp()
