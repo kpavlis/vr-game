@@ -25,7 +25,7 @@ public class TriggerChest : MonoBehaviour
             mAnimator.SetTrigger("IsHere");
             mBackground.SetActive(true);
             textVariable.color = Color.black;
-            textVariable.text = "Καλωσήρθες στον θησαυρό ! Ανακάλυψε τα μυστικά...";
+            textVariable.text = "Congratulations! - You found the treasure. \n Now, explore the rest of the village...";
             mText.SetActive(true);
         }
     }
