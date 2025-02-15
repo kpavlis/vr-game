@@ -8,21 +8,14 @@ public class InteractorUI : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI messageText; //text that displayes a message
 
-    //comment out above line and use the one below if you are NOT using TextMeshPro;
-
-    //[SerializeField] private Text messageText;
-
-
+    
     void Start()
     {
 
         HideTextMessage(); //reset and hide
 
-
         //console warning if variables doesn't have a reference
-
         //we may put if statements on methods but this will fill up the code without practical use
-
         //...other that we forgot to assign these. We rimind it on the Start method.
 
         if (messageText == null) Debug.LogWarning("InteractorUI: messageText was not set.");

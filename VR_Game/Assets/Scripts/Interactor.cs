@@ -19,9 +19,7 @@ public class Interactor : MonoBehaviour
     [SerializeField] private float rayMaxDistance = 5; //interact max distance
 
     //layer mask determines which layers the layer have to search
-
     //for example layermash should be set to everything except maybe the player adn ingoreRaycast layer
-
     //Edit/Project Setting/Physics/Layer Collision Mask to see layer interaction
 
     [SerializeField] private LayerMask layerMask = ~0; //negative binary of 0 -> 2^32-1
@@ -56,9 +54,7 @@ public class Interactor : MonoBehaviour
         interacting = false;
 
         //console warning if variables doesn't have a reference
-
         //we may put if statements on methods but this will fill up the code without practical use
-
         //...other that we forgot to assign these. We rimind it on the Start method.
 
         if (interactorUI == null) Debug.LogWarning("Interactor: InteractorUI component was not set.");
@@ -78,7 +74,6 @@ public class Interactor : MonoBehaviour
 
         RaycastHit hit; //a ray with useful properties
 
-        //Physics.Raycast(start position, direction, output, distance"lenght" of raycast)
 
         if (Physics.Raycast(transform.position, transform.forward, out hit, rayMaxDistance, layerMask)) //raycast check
 
@@ -139,9 +134,7 @@ public class Interactor : MonoBehaviour
             }
 
             //if this frame the interactable object that we are looking changed
-
             //if current = null or if this frame/check the object is different from last frame/check
-
             //this is an extra cancelation check
 
             else if (currentInteractable == null || currentInteractable != lastInteractable)
@@ -154,7 +147,6 @@ public class Interactor : MonoBehaviour
         }
 
         //if current interactable not null then match current and last
-
         //with lastInteractable we can check if current and last are different objects above this next line
 
         if (currentInteractable != null) lastInteractable = currentInteractable;
@@ -169,8 +161,6 @@ public class Interactor : MonoBehaviour
         hint.SetActive(true); //show interact hint
 
         currentInteractable.OnReadyInteract(); //call interface method on selected/current object
-
-        //Debug.Log("Ready");
 
     }
 
@@ -187,8 +177,6 @@ public class Interactor : MonoBehaviour
 
             lastInteractable.OnAbortInteract(); //call interface method on previously selected object (as current is null)
 
-        //Debug.Log("Abort");
-
     }
 
 
@@ -203,12 +191,9 @@ public class Interactor : MonoBehaviour
 
 
         //call interface method on selected/current object
-
         //send this interactor as parameter so object has a reference
 
         currentInteractable.OnInteract(this);
-
-        //Debug.Log("Interact");
 
     }
 
@@ -218,11 +203,8 @@ public class Interactor : MonoBehaviour
         interacting = false;
 
         //setting readyInteract to false we allow for a clean check next frame/check
-
         //when an interacting is cancelled, a next suitable object could be ready to interact (already looking at it)
-
         //...but without setting readyInteract to false, it thinks we aren't allowed to search for anything new
-
         //(will not call ReadyInteract method properly) 
 
         readyInteract = false;
@@ -233,7 +215,6 @@ public class Interactor : MonoBehaviour
 
         interactorUI.HideTextMessage(); //hide UI text element
 
-        //Debug.Log("EndInteract");
 
     }
 
@@ -250,16 +231,12 @@ public class Interactor : MonoBehaviour
 
 
     //we call OnInteract method on our interactables and we expect to receive something
-
     //this can be a string or the object itself
-
     //a string can be returned from the text of a sign for example
-
     //example of oveload methods
 
     public void ReceiveInteract(string message)
     {
-        //Debug.Log(message);
 
         //call interactorUI (a separete script that handles UI elements) and show text on UI
 
@@ -291,18 +268,6 @@ public class Interactor : MonoBehaviour
             {
                 return true;
             }
-
-            /* if button is pressed this frame
-
-            if (Input.GetKey(cancelInteractionKeys[i]))
-
-            {
-
-                return true;
-
-            }
-
-            */
 
         }
 

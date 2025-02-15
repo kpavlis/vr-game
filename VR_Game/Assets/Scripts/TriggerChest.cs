@@ -3,14 +3,14 @@ using UnityEngine;
 
 public class TriggerChest : MonoBehaviour
 {
-    private Animator mAnimator;
-    public GameObject mText;
-    public GameObject mBackground;
-    public GameObject main_object;
-    private TextMeshProUGUI textVariable;
-   
+    private Animator mAnimator; //the animator component of the animated object
+    public GameObject mText; //the game object that contains the textVariable element
+    public GameObject mBackground; //the object which is the background image of the text
+    public GameObject main_object; //the animated object
+    private TextMeshProUGUI textVariable; //the text element that displays the message to the player
 
 
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         mAnimator = main_object.GetComponent<Animator>();
@@ -18,6 +18,7 @@ public class TriggerChest : MonoBehaviour
         
     }
 
+    // it is called when a collider enters the trigger area of the object this script is attached to
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
@@ -30,6 +31,7 @@ public class TriggerChest : MonoBehaviour
         }
     }
 
+    // it is called when a collider exits the trigger area of the object this script is attached to
     private void OnTriggerExit(Collider other)
     {
         if (other.tag == "Player")

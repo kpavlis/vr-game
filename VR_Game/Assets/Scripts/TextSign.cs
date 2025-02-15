@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class TextSign : MonoBehaviour, IInteractable
 {
-    [SerializeField] private GameObject indicator;
-    [TextArea(3, 10)]
-    public string text;
+    [SerializeField] private GameObject indicator; //indicator that helps to show that object is interactable
+
+    [TextArea(3, 10)] public string text; //the text that will be displayed when interacted
 
 
     public void OnInteract(Interactor interactor)
