@@ -6,7 +6,7 @@
 
 This project was created and maintained by:
 
-- Konstantinos Pavlis (@KonstantinosPavlis)
+- Konstantinos Pavlis (@kpavlis)
 - Theofanis Tzoumakas (@theofanistzoumakas)
 - Michael-Panagiotis Kapetanios (@KapetaniosMP)
 
