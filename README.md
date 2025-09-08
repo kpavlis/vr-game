@@ -25,6 +25,12 @@ Village Neighbors is a simple virtual reality game developed in Unity using C#. 
 
 This virtual reality game designed to immerse players in a stylized, low-poly village filled with secrets and interactive elements. The goal is to explore the environment, uncover clues, and ultimately discover a hidden treasure. The project showcases core VR development principles using Unity and C#, with a focus on environmental storytelling, interaction mechanics, and immersive design. It is developed solely for academic and research purposes.
 
+## 📃 Project Presentation
+
+You can view the full presentation of this project in PDF format here.
+
+👉🏼 [Presentation (in greek)](./VR_Game_Presentation_gr.pdf)
+
 ## 🧠 Scripts Used
 
 Key C# scripts include:
@@ -49,12 +55,6 @@ Follow these steps to set up and run the game locally:
 1. **Clone or download** the project repository to your local machine.
 2. Open the project folder in **Unity Hub** and launch it with the appropriate Unity version.
 3. (Coming...)
-
-## 📃 Project Presentation
-
-You can view the full presentation of this project in PDF format here.
-
-👉🏼 [Presentation (in greek)](./VR_Game_Presentation_gr.pdf)
 
 ## 📷 Screenshots / Video
 
