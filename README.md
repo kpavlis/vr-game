@@ -1,6 +1,6 @@
 # 🕹️ Virtual Reality Game: Village Neighbors
 
-**A low-poly VR adventure built with Unity and C#**
+**A low-poly VR adventure built with Unity and C#.**
 
 ## 🧭 Overview
 
