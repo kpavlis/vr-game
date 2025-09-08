@@ -39,7 +39,7 @@ Key C# scripts include:
 
 To run or modify the game, you’ll need:
 
-- **Unity** (version 2022.3 LTS or later recommended)
+- **Unity** (version 6000.0.27f1 LTS or later recommended)
 - **Visual Studio** with Unity development tools
 
 ## 📦 Installation
