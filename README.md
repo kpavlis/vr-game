@@ -58,8 +58,7 @@ Follow these steps to set up and run the game locally:
 
 **_Demo Video:_**
 
-> 
-
+> https://github.com/user-attachments/assets/2b672a26-18ab-4c8c-b86c-cf71d6c4ce55
 
 
 # 🔒 Code Ownership & Usage Terms
