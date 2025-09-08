@@ -46,7 +46,7 @@ Key C# scripts include:
 
 ## 🧰 Prerequisites
 
-To run or modify the game, you’ll need:
+To run the game, you’ll need:
 
 - **Unity 6000.0.27f1 LTS (recommended)** - Newer versions may work with minor adjustments
 - **Visual Studio** with Unity development tools
