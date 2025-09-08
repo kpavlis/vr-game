@@ -48,17 +48,19 @@ Follow these steps to set up and run the game locally:
 
 1. **Clone or download** the project repository to your local machine.
 2. Open the project folder in **Unity Hub** and launch it with the appropriate Unity version.
-3. (Coming)
+3. (Coming...)
 
 ## 📷 Screenshots / Video
 
 **_App Screens:_**  
 
-> (Coming)
+> (Coming soon)
 
 **_Demo Video:_**
 
-> https://github.com/user-attachments/assets/2b672a26-18ab-4c8c-b86c-cf71d6c4ce55
+> https://github.com/user-attachments/assets/1425762b-7976-4c44-b29d-f102b539205d
+
+
 
 
 # 🔒 Code Ownership & Usage Terms
