@@ -4,7 +4,14 @@
 
 ## 🧭 Overview
 
-Village Neighbors is a virtual reality game developed in Unity using C#. The player explores a stylized village, interacts with objects and signs, and searches for a hidden treasure. The game includes animated elements, patrolling NPCs, and a pause menu with basic settings.
+Village Neighbors is a simple virtual reality game developed in Unity using C#. The player explores a stylized village, interacts with objects and signs, and searches for a hidden treasure. The game includes animated elements, patrolling NPCs, and a pause menu with basic settings.
+
+## ✨ Highlights
+
+- Immersive VR experience in a stylized village setting  
+- Interactive clues and environmental storytelling  
+- Smooth player controls and intuitive UI  
+- Engaging animations and NPC behavior
 
 ## 🧩 Gameplay Features
 
@@ -13,13 +20,6 @@ Village Neighbors is a virtual reality game developed in Unity using C#. The pla
 - **Treasure Discovery**: Solve the mystery and unlock the final message.
 - **NPC Patrolling**: Adds realism and movement to the village.
 - **Pause Menu**: Adjust music volume, resume, or quit the game.
-
-## ✨ Highlights
-
-- Immersive VR experience in a stylized village setting  
-- Interactive clues and environmental storytelling  
-- Smooth player controls and intuitive UI  
-- Engaging animations and NPC behavior
 
 ## 🎯 Purpose
 
@@ -54,13 +54,23 @@ Follow these steps to set up and run the game locally:
 
 **_App Screens:_**  
 
-> (Coming soon)
+> <img width="250" height="160" alt="VR_Game_1" src="https://github.com/user-attachments/assets/98954685-4297-4f3a-a607-f67e1b38016b" />
+> <img width="250" height="160" alt="VR_Game_2" src="https://github.com/user-attachments/assets/2d2b104d-bec9-4678-9f0c-71e704869301" />
+> <img width="250" height="160" alt="VR_Game_3" src="https://github.com/user-attachments/assets/89003e20-cfa9-446b-914c-81a7ceeba759" />
+> <img width="250" height="160" alt="VR_Game_4" src="https://github.com/user-attachments/assets/481da327-4359-4c5d-bbcf-2b67e1f94b0a" />
+> <img width="250" height="160" alt="VR_Game_5" src="https://github.com/user-attachments/assets/707bef4e-1d01-4519-a558-463527261660" />
+> <img width="250" height="160" alt="VR_Game_6" src="https://github.com/user-attachments/assets/bb810f95-f60c-4e9b-b45f-bc2981558dee" />
+
 
 **_Demo Video:_**
 
 > https://github.com/user-attachments/assets/1425762b-7976-4c44-b29d-f102b539205d
 
+## 📃 Project Presentation
 
+You can view the full presentation of this project in PDF format here.
+
+👉🏼 [Presentation (in greek)](./VR_Game_Presentation.pdf)
 
 
 # 🔒 Code Ownership & Usage Terms
