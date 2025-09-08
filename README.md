@@ -35,7 +35,7 @@ Key C# scripts include:
 - `NpcWalkingForward.cs`: Controls NPC movement  
 - `IInteractable.cs`, `Interactor.cs`, `InteractorUI.cs`, `TextSign.cs`: Enable object interaction and feedback
 
-## ⚙️ Prerequisites
+## 🧰 Prerequisites
 
 To run or modify the game, you’ll need:
 
@@ -48,8 +48,7 @@ Follow these steps to set up and run the game locally:
 
 1. **Clone or download** the project repository to your local machine.
 2. Open the project folder in **Unity Hub** and launch it with the appropriate Unity version.
-...
-(Coming)
+3. (Coming)
 
 ## 📷 Screenshots / Video
 
