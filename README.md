@@ -50,6 +50,12 @@ Follow these steps to set up and run the game locally:
 2. Open the project folder in **Unity Hub** and launch it with the appropriate Unity version.
 3. (Coming...)
 
+## 📃 Project Presentation
+
+You can view the full presentation of this project in PDF format here.
+
+👉🏼 [Presentation (in greek)](./VR_Game_Presentation_gr.pdf)
+
 ## 📷 Screenshots / Video
 
 **_App Screens:_**  
@@ -65,12 +71,6 @@ Follow these steps to set up and run the game locally:
 **_Demo Video:_**
 
 > https://github.com/user-attachments/assets/1425762b-7976-4c44-b29d-f102b539205d
-
-## 📃 Project Presentation
-
-You can view the full presentation of this project in PDF format here.
-
-👉🏼 [Presentation (in greek)](./VR_Game_Presentation.pdf)
 
 
 # 🔒 Code Ownership & Usage Terms
