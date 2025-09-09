@@ -46,9 +46,9 @@ Key C# scripts include:
 
 ## 🧰 Prerequisites
 
-To run the game, you’ll need:
+To run or modify the game, you’ll need:
 
-- **Unity 6000.0.27f1 LTS (recommended)** - Newer versions may work with minor adjustments
+- **Unity Editor 6000.0.27f1 LTS (recommended)** - Newer versions may work with minor adjustments
 - **Visual Studio** with Unity development tools
 
 ## 📦 Installation
@@ -60,7 +60,7 @@ Follow these steps to set up and run the game:
    git clone https://github.com/kpavlis/vr-game.git
    cd vr-game
    
-2. **Add** the project folder in **Unity Hub**
+2. **Import** the project folder in **Unity Hub** ("_Add project from disk_" selection)
 
 3. **Launch** it with the appropriate Unity version
 
