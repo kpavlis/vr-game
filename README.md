@@ -9,7 +9,7 @@
 
 Village Neighbors is a simple virtual reality game developed in Unity using C#. The player explores a stylized village, interacts with objects and signs, and searches for a hidden treasure. The game includes animated elements, patrolling NPCs, and a pause menu with basic settings.
 
-> 📌 The `resources` folder contains supporting material such as screenshots and documents.
+> 📌 The `resources` folder contains supporting material such as screenshots and PDFs.
 
 ## ✨ Highlights
 
