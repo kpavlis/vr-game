@@ -9,6 +9,8 @@
 
 Village Neighbors is a simple virtual reality game developed in Unity using C#. The player explores a stylized village, interacts with objects and signs, and searches for a hidden treasure. The game includes animated elements, patrolling NPCs, and a pause menu with basic settings.
 
+> 📌 The `resources` folder contains supporting material such as screenshots and documents.
+
 ## ✨ Highlights
 
 - Immersive VR experience in a stylized village setting  
@@ -32,7 +34,7 @@ This virtual reality game designed to immerse players in a stylized, low-poly vi
 
 You can view the full presentation of this project in PDF format here.
 
-👉🏼 [Presentation (in greek)](./VR_Game_Presentation_gr.pdf)
+👉🏼 [Presentation (in greek)](resources/docs/VR_Game_Presentation_gr.pdf)
 
 ## 🧠 Scripts Used
 
@@ -70,12 +72,12 @@ Follow these steps to set up and run the game:
 
 **_App Screens:_**  
 
-> <img width="250" height="160" alt="VR_Game_1" src="https://github.com/user-attachments/assets/98954685-4297-4f3a-a607-f67e1b38016b" />
-> <img width="250" height="160" alt="VR_Game_2" src="https://github.com/user-attachments/assets/2d2b104d-bec9-4678-9f0c-71e704869301" />
-> <img width="250" height="160" alt="VR_Game_3" src="https://github.com/user-attachments/assets/89003e20-cfa9-446b-914c-81a7ceeba759" />
-> <img width="250" height="160" alt="VR_Game_4" src="https://github.com/user-attachments/assets/481da327-4359-4c5d-bbcf-2b67e1f94b0a" />
-> <img width="250" height="160" alt="VR_Game_5" src="https://github.com/user-attachments/assets/707bef4e-1d01-4519-a558-463527261660" />
-> <img width="250" height="160" alt="VR_Game_6" src="https://github.com/user-attachments/assets/bb810f95-f60c-4e9b-b45f-bc2981558dee" />
+> <img width="250" height="160" alt="VR_Game_1" src="resources/screenshots/main_menu.png" />
+> <img width="250" height="160" alt="VR_Game_2" src="resources/screenshots/controls_guide.png" />
+> <img width="250" height="160" alt="VR_Game_3" src="resources/screenshots/market_stall.png" />
+> <img width="250" height="160" alt="VR_Game_4" src="resources/screenshots/village_scene.png" />
+> <img width="250" height="160" alt="VR_Game_5" src="resources/screenshots/treasure_position.png" />
+> <img width="250" height="160" alt="VR_Game_6" src="resources/screenshots/pause_menu.png" />
 
 
 **_Demo Video:_**
