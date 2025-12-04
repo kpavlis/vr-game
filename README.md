@@ -20,11 +20,11 @@ Village Neighbors is a simple virtual reality game developed in Unity using C#. 
 
 ## 🧩 Gameplay Features
 
-- **Environmental Interaction**: Read signs and discover clues when prompted by visual cues.
-- **Dynamic Animations**: Objects respond to player proximity.
-- **Treasure Discovery**: Solve the mystery and unlock the final message.
-- **NPC Patrolling**: Adds realism and movement to the village.
-- **Pause Menu**: Adjust music volume, resume, or quit the game.
+- **Environmental Interaction**: Read signs and discover clues when prompted by visual cues
+- **Dynamic Animations**: Objects respond to player proximity
+- **Treasure Discovery**: Solve the mystery and unlock the final message
+- **NPC Patrolling**: Adds realism and movement to the village
+- **Pause Menu**: Adjust music volume, resume, or quit the game
 
 ## 🎯 Purpose
 
